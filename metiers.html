@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AFMAT - Nos Métiers</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M79JS2Y6CT">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-M79JS2Y6CT');
+    </script>
+
+
+    <!--~~~~~~ Lien Favicon ~~~~~~-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#d23530">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="RVNCx8XcXEPU8_k-B9FB4k-xZ1ktACX0BVpya_aERtE" />
+
+    <!--~~~~~~ Lien installation Bootstrap ~~~~~~-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--~~~~~~ Lien pour utilisation bibliothèque AOS (Animate On Scroll) ~~~~~~-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--~~~~~~ Lien pour utilisation icônes flaticon ~~~~~~-->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+
+    <!--~~~~~~ Lien pour utilisation icônes font awsome ~~~~~~-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <!--~~~~~~ NAVBAR ~~~~~~-->
+
+    <nav class="cc-navbar navbar position-fixed navbar-expand-md navbar-dark w-100 bg-blur">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img style="width: 70px; filter: brightness(0) invert(1);" class="mb-4" src="assets/images/logo-afmat-fw.png" alt="Logo AFMAT">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" data-bs-theme="dark">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 70px;" src="./assets/images/logo-afmat.png" alt=""></h5>
+                    <button type="button" class="btn-close btn-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" href="metiers.html">Nos Métiers</a>
+                    </li>
+                    <li class="nav-item pe-4 dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-dark mb-3">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Catalogues</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Demander un devis</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="a-propos.html">A propos de nous</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link disabled" href="#">News</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item justify-content-end">
+                        <a class="btn btn-contact rounded-0" href="contact.html">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--~~~~~~ HERO SECTION ~~~~~~-->
+
+    <section id="hero" class="pdc gif-01 d-flex justify-content-center align-items-center max-vh-20">
+        
+        <!-- Vidéo de fond -->
+
+        <video id="backgroundVideo" class="video-background" loop muted poster="assets/images/img-ouvrier-usine.jpg">
+            <source src="assets/videos/video-hero.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+
+        <!-- Superposition sombre -->
+
+        <div class="hero-overlay d-flex justify-content-start align-items-end ">
+            <div class="container">
+                <h1 class="display-2 inter text-white text-uppercase inter fw-bold text-white">Découvrez</h1>
+                <h1 class="display-2 inter text-white margin-b-100 text-uppercase inter fw-bold text-white">Nos métiers</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!--~~~~~~ SECTION METIERS ~~~~~~-->
+    
+    <section class="container content-contact margin-b-100">
+        <div class="row margin-b-50 mt-5">
+            <br>
+            <h1 class="mb-4 inter">Pièces et équipments de toutes industries</h1>
+            <div class="row">
+                <p style="border-left: 5px solid var(--gris-4); padding-left: 30px; margin-left: 15px;">Avec une expertise approfondie en approvisionnement, une supply chain parfaitement maîtrisée et des relations solides avec nos fournisseurs d’équipements et pièces industrielles, nous répondons aux besoins variés des secteurs industriels à travers le monde. Nous nous engageons à satisfaire et à maintenir la confiance de notre clientèle exigeante, présente dans toute la région subsaharienne.</p>
+            </div>
+        </div>
+        
+        <div class="d-flex">
+            <!-- Aside Navbar iste des métiers -->
+            <aside class="aside-navbar">
+              <div class="list-group" id="list-tab" role="tablist">
+                <button class="list-group-item list-group-item-action active" id="list-all-list" data-bs-toggle="list" data-bs-target="#list-all" type="button" role="tab" aria-controls="all">
+                    <i class="fas fa-briefcase"></i>
+                    <strong class="texte-aside-navbar">Tous nos métiers</strong>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-mining-list" data-bs-toggle="list" data-bs-target="#list-mining" type="button" role="tab" aria-controls="mining">
+                    <i class="fas fa-hard-hat"></i>
+                    <span class="texte-aside-navbar">Activités minières</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-oil-list" data-bs-toggle="list" data-bs-target="#list-oil" type="button" role="tab" aria-controls="oil">
+                    <i class="fas fa-gas-pump"></i>
+                    <span class="texte-aside-navbar">Industrie pétrolière et gazière</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-forestry-list" data-bs-toggle="list" data-bs-target="#list-forestry" type="button" role="tab" aria-controls="forestry">
+                    <i class="fas fa-tree"></i>
+                    <span class="texte-aside-navbar">Industrie forestière</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-civil-list" data-bs-toggle="list" data-bs-target="#list-civil" type="button" role="tab" aria-controls="civil">
+                    <i class="fas fa-building"></i>
+                    <span class="texte-aside-navbar">Génie civil</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-equipment-list" data-bs-toggle="list" data-bs-target="#list-equipment" type="button" role="tab" aria-controls="equipment">
+                    <i class="fas fa-car"></i>
+                    <span class="texte-aside-navbar">Équipements roulants</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-office-list" data-bs-toggle="list" data-bs-target="#list-office" type="button" role="tab" aria-controls="office">
+                    <i class="fas fa-chair"></i>
+                    <span class="texte-aside-navbar">Mobilier de bureau</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-energy-list" data-bs-toggle="list" data-bs-target="#list-energy" type="button" role="tab" aria-controls="energy">
+                    <i class="fas fa-bolt"></i>
+                    <span class="texte-aside-navbar">Énergie électrique</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-valve-list" data-bs-toggle="list" data-bs-target="#list-valve" type="button" role="tab" aria-controls="valve">
+                    <i class="fas fa-faucet"></i>
+                    <span class="texte-aside-navbar">Robinetterie industrielle</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-electrical-list" data-bs-toggle="list" data-bs-target="#list-electrical" type="button" role="tab" aria-controls="electrical">
+                    <i class="fas fa-tools"></i>
+                    <span class="texte-aside-navbar">Electricité et instrumentation</span>
+                </button>
+                <button class="list-group-item list-group-item-action" id="list-generator-list" data-bs-toggle="list" data-bs-target="#list-generator" type="button" role="tab" aria-controls="generator">
+                    <i class="fas fa-battery-full"></i>
+                    <span class="texte-aside-navbar">Groupes électrogènes</span>
+                </button>
+              </div>
+            </aside>
+        
+            <!-- Tab Content différents métiers dans des cards, Tab "Tous nos métiers" -->
+            <div class="tab-content p-3">
+                <div class="tab-pane fade show active" id="list-all" role="tabpanel" aria-labelledby="list-all-list">
+                    <p>AFMAT se spécialise principalement dans les secteurs d’industries ci-dessous :</p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4" >
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-1-activité-minière.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Activitée minières</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-2-industrie-pétrolière.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Industrie pétrolière et gazière</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-3-industrie-forestière.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Industrie forestière</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-4-génie-civil.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Génie civil</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-5-équipement-roulants.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Équipements roulants</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-6-mobilié.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Mobilier de bureau</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-7-énergie-électrique.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Énergie électrique</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-8-robinetterie.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Robinetterie industrielle</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-9-électricité.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Electricité et instrumentation</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 hover-metier">
+                                <img src="assets/images/img-10-groupe-électrogène.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Groupes électrogènes</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contenu des tabs présents dans l' aside navbar -->
+
+                <!-- Ci-dessous, contenu tab activité minière -->
+                <div class="tab-pane fade" id="list-mining" role="tabpanel" aria-labelledby="list-mining-list">
+                    <div class="row d-md-flex">
+
+                        <!-- Colonne grand titre plus texte de l'activité -->
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>1</strong></h1>
+                                <h2 class="titre-metier">Activité <br>Minières</h2>
+                                <p class="margin-b-25">Pour maintenir la production et optimiser les rendements dans l’industrie minière, notre sélection de partenaires intervenant dans ce secteur est très stricte.</p>
+                                <p class="">Les fournisseurs de pièces détachées et d’équipements doivent justifier d’une solide expérience dans la fabrication et la fourniture de produits manufacturés.</p>
+                            </div>
+
+                            <!-- Colonne de l'image de l'activité. Image visible à partir des écrans < 768px -->
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-1-activité-minière.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+
+                        <!--Colonne de l'image de l'activté. Image visible sur le côté pour les écrans jusqu'à 768px -->
+                        <div class="col margin-b-50  col-img-activities">
+                            <img src="assets/images/img-1-activité-minière.png" class="img-fluid" alt="">
+                        </div>
+
+                        <!-- Rangée de la ligne liste des produits couverts dans l'activité -->
+                        <div class="row">
+
+                            <!-- col-lg-6 col-md-12 : Mets les deux liste sur la même rangée pour les écrans de PC 
+                             et l'une au dessus de l'autre pour les écrans de tablette et plus petits -->
+                            <ul class="col-lg-6 col-md-12"> 
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Equipement de sécurité et EPI</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Outils de forage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Pièces de rechange et équipement de forage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Pompes</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyaux et raccords</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Huile, graisse et lubrifiants</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Roulements et joints</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Courroies transporteuses et poulies</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Composants électriques et électroniques</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Systèmes de contrôle de puits</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Compresseurs d’air</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Accessoires d’équipement de levage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Campements modulaires</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyaux (PEHD & PVC)</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Moteurs électriques</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Filtres</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Colonne contenant les bouttons en bas de l'activitée -->
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Industrie pétrolière -->
+                <div class="tab-pane fade" id="list-oil" role="tabpanel" aria-labelledby="list-oil-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>2</strong></h1>
+                                <h2 class="titre-metier">Industrie Pétrolière <br> et Gazière</h2>
+                                <p class="margin-b-25">La maitrise de la chaine d’approvisionnement et des délais dans l’industrie pétrolière détermine la qualité des produits et des machines.</p>
+                                <p class="margin-b-25">La supply chain reste un défi permanent. Nous ne transigeons pas sur la qualité des équipements spécialisés et des accessoires de marques que nous fournissons à nos clients.</p>
+                            </div>
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-2-industrie-pétrolière.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-2-industrie-pétrolière.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="row mt-lg-4">
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Moteurs électriques</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyaux et raccords</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Pièces de rechange et équipement de forage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Outils de forage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Accessoires d’équipement de levage</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Compresseurs d’air</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Systèmes de contrôle de puits</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Composants électriques et électroniques</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Courroies transporteuses et poulies</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Roulements et joints</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Pompes</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Filtres</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Campements modulaires</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Equipement de sécurité et EPI</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Industrie forestière -->
+                <div class="tab-pane fade" id="list-forestry" role="tabpanel" aria-labelledby="list-forestry-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>3</strong></h1>
+                                <h2 class="titre-metier">Industrie forestière et transformation du bois</h2>
+                                <p class="margin-b-25">Notre offre est composée de pièces de rechange pour les activités de transformation du bois. Mais aussi d’équipements lourds et camions. La plupart des équipements et accessoires respectent le cahier de charges très précis des activités forestières.</p>
+                            </div>
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-3-industrie-forestière.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-3-industrie-forestière.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="row mt-lg-4">
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Engins Lourds et Camions - pièces détachées et accessoires</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tronçonneuse, pièces détachées et accessoires</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Matériels et accessoires de levage - Elingues, Palans, Treuils, Pinces de levage et Palans</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Matériaux et équipements des scieries</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Câbles en acier pour débardage et manutention billes de bois</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Equipements de protection individuelle.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Génie civil -->
+                <div class="tab-pane fade" id="list-civil" role="tabpanel" aria-labelledby="list-civil-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>4</strong></h1>
+                                <h2 class="titre-metier">Génie civil</h2>
+                                <p class="margin-b-25">Nous proposons de fournir des équipements et matériaux de construction pour le GÉNIE CIVIL. Les pièces de rechange pour équipements lourds et les matériaux de construction sont standardisés et répondent aux normes internationales.</p>
+
+                                <div class="row mt-lg-2">
+                                    <ul>
+                                        <li class="liste-metiers"><i class="fa fa-plus"></i>Matériaux et équipements de construction - Poutres en acier, bétonnières, etc.</li>
+                                        <li class="liste-metiers"><i class="fa fa-plus"></i>Équipements et accessoires de sécurité en hauteur</li>
+                                        <li class="liste-metiers"><i class="fa fa-plus"></i>Matériels et accessoires de levage - Elingues, Palans, Treuils, Pinces de levage et Palans</li>
+                                        <li class="liste-metiers"><i class="fa fa-plus"></i>Engins Lourds et Camions - pièces détachées et accessoires</li>
+                                        <li class="liste-metiers"><i class="fa fa-plus"></i>Matériaux et équipements pour travaux de construction des routes.</li>
+                                    </ul>
+                                </div>
+                                <div class="col col-liste-activities-md">
+                                    <img src="assets/images/img-4-génie-civil.png" class="img-fluid margin-b-50" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-4-génie-civil.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Equipements roulants -->
+                <div class="tab-pane fade" id="list-equipment" role="tabpanel" aria-labelledby="list-equipment-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>5</strong></h1>
+                                <h2 class="titre-metier">Equipements roulants</h2>
+                                <p class="margin-b-25">Avec une offre orientée sur les VEHICULES ET ENGINS, PIÈCES DE RECHANGE et ACCESSOIRES POUR ENGINS LOURDS, CAMIONS, BUS, PICK-UP 4X4 et VÉHICULES LÉGERS, nous proposons la plupart des marques et de pièces de rechanges provenant de fabricants OEM établis dans le monde entier.</p>
+                                <p class="margin-b-25">Nous nous concentrons sur l’achat et la fourniture d’équipements et fournissons des pièces de rechange pour :</p>
+                            </div>
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-5-équipement-roulants.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-img-activities mb-lg-4">
+                            <img src="assets/images/img-5-équipement-roulants.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="row">
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Véhicules Légers et 4X4 : MAZDA BT50, TOYOTA HILUX, NISSAN HARDBODY, MITSUBISHI L200</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Les autobus : TOYOTA HIACE, COASTER, NISSAN URVAN</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Camions : Camions MERCEDES et MAN</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Equipement lourds – Machines de marques : CATERPILAR, KOMATSU, VOLVO – Pelles Excavatrices, chargeuses sur pneus, bulldozers, compacteurs, niveleuses, chariots élévateurs, grues, etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Equipement roulants -->
+                <div class="tab-pane fade" id="list-office" role="tabpanel" aria-labelledby="list-office-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>6</strong></h1>
+                                <h2 class="titre-metier">Mobilier de bureau et de maison</h2>
+                                <p class="margin-b-25">Nous nous concentrons sur la fourniture de mobilier de bureau et de maison de première qualité. Nous offrons nos services pour des équipements de marques et de classe mondiale recommandées pour répondre à vos besoins spécifiques.</p>
+                                <p class="margin-b-25">Nous nous concentrons sur l’achat et la fourniture d’équipements et fournissons des pièces de rechange pour :</p>
+                            </div>
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-6-mobilié.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-6-mobilié.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="row mt-lg-3">
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tables de bureau et de conférence</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises de bureau & visiteurs</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises et tables de salle à manger</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Archivage & armoires de bureau</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Placards de la maison et de la chambre</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Bureaux de direction et de bureau</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Canapé et tables de la maison</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Energie électrique -->
+                <div class="tab-pane fade" id="list-energy" role="tabpanel" aria-labelledby="list-energy-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>7</strong></h1>
+                                <h2 class="titre-metier">Energie <br>électrique</h2>
+                                <p class="margin-b-50">Pour ce secteur d’activité, notre offre de produits est composée d’équipements et matériels pour LA PRODUCTION, LE TRANSPORT ET LA DISTRIBUTION DE L’ENERGIE ELECTRIQUE, ainsi que les équipements spécialisés et accessoires de marques et de qualité pour ce secteur.</p>
+                            </div>
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-7-énergie-électrique.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-img-activities mb-lg-4">
+                            <img src="assets/images/img-7-énergie-électrique.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="row">
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tables de bureau et de conférence</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises de bureau & visiteurs</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises et tables de salle à manger</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Archivage & armoires de bureau</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Placards de la maison et de la chambre</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Bureaux de direction et de bureau</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Canapé et tables de la maison</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Robinetterie industrielle -->
+                <div class="tab-pane fade" id="list-valve" role="tabpanel" aria-labelledby="list-valve-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>8</strong></h1>
+                                <h2 class="titre-metier">Robinetterie industrielle, vannes, soupapes et motorisation</h2>
+                                <p class="margin-b-25">Notre savoir-faire nous conduit à proposer à nos clients les équipements et matériels de Robinetterie, tuyauterie, motorisation et vannes les plus innovants et à la pointe de la technologie. Nous déployons nos offres dans les secteurs oil et gaz, minier, énergie, forestier, chimie et génie civil.</p>
+                                <p class="margin-b-25">Nous maitrisons leurs contraintes techniques et réglementaires et nous vous garantissons des produits de qualité, à des prix compétitifs, auprès de nos partenaires fabricants de renoms principalement en Europe et aux Etats Unis.</p>
+                            </div>
+                        </div>
+                        <div class="col col-liste-activities">
+                            <img src="assets/images/img-8-robinetterie.png" class="img-fluid margin-b-50" alt="">
+                            <div class="row">
+                                <ul>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes a passage directs, Vannes a papillon</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Clapets et filtres</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes de régulations et tendeurs</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Raccorderi</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Robinetterie diverse</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Motorisation</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyauterie</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Equipements divers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-liste-activities-md">
+                        <img src="assets/images/img-8-robinetterie.png" class="img-fluid margin-b-50" alt="">
+                        <div class="row">
+                            <ul>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes a passage directs, Vannes a papillon</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Clapets et filtres</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes de régulations et tendeurs</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Raccorderi</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Robinetterie diverse</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Motorisation</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyauterie</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Equipements divers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Electicité et instrumentation -->
+                <div class="tab-pane fade" id="list-electrical" role="tabpanel" aria-labelledby="list-electrical-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>9</strong></h1>
+                                <h2 class="titre-metier">Electricité et instrumentation</h2>
+                                <p class="margin-b-25">Face aux défis de conformités industrielles et d’évolution technologiques, nous offrons pour différents secteurs d’activités, des équipements, matériels et composantes ELECTRIQUES ET D’INSTRUMENTATION de marques et de qualité reconnues mondialement.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col col-liste-activities-md">
+                                    <img src="assets/images/img-9-électricité.png" class="img-fluid margin-b-50" alt="">
+                                </div>
+                                <ul>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes a passage directs, Vannes a papillon</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Clapets et filtres</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Vannes de régulations et tendeurs</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Raccorderi</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Robinetterie diverse</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Motorisation</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Tuyauterie</li>
+                                    <li class="liste-metiers"><i class="fa fa-plus"></i>Equipements divers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-9-électricité.png" class="img-fluid margin-b-50" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content tab Groupe électrogène  -->
+                <div class="tab-pane fade" id="list-generator" role="tabpanel" aria-labelledby="list-generator-list">
+                    <div class="row d-md-flex">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="red-square"><strong>10</strong></h1>
+                                <h2 class="titre-metier">Groupes électrogenes, pompes et compresseurs</h2>
+                                <p class="margin-b-25">Dans le but d’accompagner les différentes industries dans leur recherche de performance optimale, nous offrons des équipements, matériels et accessoires pour GROUPES ELECTROGENES, POMPES ET COMPRESSEURS, de marques de renom et de qualité à travers nos partenaires techniques dans le strict respect des exigences des fabricants.</p>
+                            </div>
+                        </div>
+                        <div class="col col-img-activities">
+                            <img src="assets/images/img-10-groupe-électrogène.png" class="img-fluid margin-b-50" alt="">
+                        </div>
+
+                        <div class="row">
+                            <div class="col col-liste-activities-md">
+                                <img src="assets/images/img-10-groupe-électrogène.png" class="img-fluid margin-b-50" alt="">
+                            </div>
+                            <ul class="col-lg-6 col-md-12">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Tables de bureau et de conférence</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises de bureau & visiteurs</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Chaises et tables de salle à manger</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Archivage & armoires de bureau</li>
+                            </ul>
+                            <ul class="col">
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Placards de la maison et de la chambre</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Bureaux de direction et de bureau</li>
+                                <li class="liste-metiers"><i class="fa fa-plus"></i>Canapé et tables de la maison</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5 col-button-activities">
+                            <a class="btn btn-contact rounded-0 me-2 mb-sm-3" href="contact.html">Nous contacter</a>
+                            <a class="btn btn-contact-outline rounded-0 inter me-2 mb-sm-3" href="#">Demander un devis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--~~~~~~ FOOTER ~~~~~~-->
+
+    <footer>
+        <div class="footer-top text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <img src="assets/images/logo-afmat-fw.png" style="width: 70px" alt="Logo AFMAT">
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <a href="pdc.html">AFMAT - Contact</a>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <a href="https://www.linkedin.com/company/afmat_gabon/">Suivez nous sur LinkedIn<i class="fab fa-linkedin" style="width: 30px"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 my-3 link-underline">
+                        <p>TOGETHER WE WORK TO BUILD YOUR FUTURE</p><br>
+                        <p><a href="pdc.html">Legal Notice</a> • <a href="pdc.html">CGV/CGA</a> • <a href="pdc.html">Politique de Confidentialité</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"  style="background-color: #141414;">
+            <div class="col-12 mt-3 d-flex align-items-center justify-content-center">
+                <p class="text-white">© <span id="current-year"></span> AFMAT - Africa Materials</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!--~~~~~~ SCRIPTS ~~~~~~-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        window.addEventListener('load', function() {
+            const video = document.getElementById('backgroundVideo');
+            setTimeout(() => {
+                video.play(); // Lance la vidéo après le délai
+                video.style.opacity = 1; // Rendre la vidéo visible
+            }, 5000); // 5000ms = 5 secondes de délai
+        });
+    </script>    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

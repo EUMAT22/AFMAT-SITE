@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AFMAT - Contact</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M79JS2Y6CT">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-M79JS2Y6CT');
+    </script>
+
+
+    <!--~~~~~~ Lien Favicon ~~~~~~-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#d23530">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="RVNCx8XcXEPU8_k-B9FB4k-xZ1ktACX0BVpya_aERtE" />
+
+    <!--~~~~~~ Lien installation Bootstrap ~~~~~~-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--~~~~~~ Lien pour utilisation bibliothèque AOS (Animate On Scroll) ~~~~~~-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--~~~~~~ Lien pour utilisation icônes flaticon ~~~~~~-->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+
+    <!--~~~~~~ Lien pour utilisation icônes font awsome ~~~~~~-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <!--~~~~~~ NAVBAR ~~~~~~-->
+
+    <nav class="cc-navbar navbar position-fixed navbar-expand-md navbar-dark w-100 bg-blur">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img style="width: 70px; filter: brightness(0) invert(1);" class="mb-4" src="assets/images/logo-afmat-fw.png" alt="Logo AFMAT">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" data-bs-theme="dark">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 70px;" src="./assets/images/logo-afmat.png" alt=""></h5>
+                    <button type="button" class="btn-close btn-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="metiers.html">Nos Métiers</a>
+                    </li>
+                    <li class="nav-item pe-4 dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-dark mb-3">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Catalogues</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Demander un devis</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="a-propos.html">A propos de nous</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link disabled" href="#">News</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item justify-content-end">
+                        <a class="btn btn-contact rounded-0 active" href="contact.html">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--~~~~~~ HERO SECTION ~~~~~~-->
+
+    <section id="hero" class="pdc gif-01 d-flex justify-content-center align-items-center max-vh-20">
+        
+        <!-- Vidéo de fond -->
+
+        <video id="backgroundVideo" class="video-background" loop muted poster="assets/images/img-contact-poster.png">
+            <source src="assets/videos/vid-cover-contact-long.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+
+        <!-- Superposition sombre -->
+
+        <div class="hero-overlay d-flex justify-content-start align-items-end ">
+            <div class="container">
+                <h1 class="display-2 inter text-white text-uppercase inter fw-bold text-white">Prenez contact</h1>
+                <h1 class="display-2 inter text-white margin-b-100 text-uppercase inter fw-bold text-white">Avec nous</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--~~~~~~ SECTION FORMULAIRE DE CONTACT ~~~~~~-->
+    
+    <section class="container content-contact">
+        <div class="margin-t-50 margin-b-100">
+            <hr>
+            <p class="margin-b-50">Formulaire de contact</p>
+            <div class="row ">
+                <div class="col-md-4 mt-3 mb-4 mt-md-0">
+                    <h6 class="inter">— Répondre à vos attentes est notre priorité !</h6> <br>
+                    <p class=" color: var(--gris-1);"><i class="fas fa-home me-3"></i> Libreville, GABON</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        <a href="mailto:infos@af-mat.com" style="text-decoration: none;  color: var(--gris-1);">infos@af-mat.com</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone me-3"></i>
+                        <a href="tel:+24111725372" style="text-decoration: none; color: var(--gris-1);">+241 11 72 53 72</a>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div class="form col-md-8">
+                        <!-- Note :
+                        - You can modify the font style and form style to suit your website. 
+                        - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+                        - The Mandatory check script can modified as to suit your business needs. 
+                        - It is important that you test the modified form before going live.-->
+                        
+                        <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 900px;'>
+                            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                            <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+                    
+                            <form id='webform6113934000001101001' action='https://crm.zoho.com/crm/WebToContactForm' name='WebToContacts6113934000001101001' method='POST' enctype='multipart/form-data' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory6113934000001101001()' accept-charset='UTF-8'>
+                                <input type='text' style='display:none;' name='xnQsjsdp' value='6ecb39bfd38254f98ffd114dd412bc0f06850a7ccf15783be4e7a379823565aa'></input>
+                                <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+                                <input type='text' style='display:none;' name='xmIwtLD' value='05e121a04440037d5cc02026126208042e89415fe9e1f0831e08df18f6d6291e2077297671ceb3e092069759613b5b09'></input>
+                                <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='></input>
+                                <input type='text' style='display:none;' name='returnURL' value='null'></input>
+                                
+                                <!-- Do not remove this code. -->
+                                 
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Salutation'>Civilité</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <select class='zcwf_col_fld_slt' role='combobox' aria-expanded='false' aria-haspopup='listbox' id='Salutation' onChange='addAriaSelected6113934000001101001()' aria-required='true' aria-label='Salutation' name='Salutation'>
+                                            <option value='-None-'>-None-</option>
+                                            <option value='M.'>M.</option>
+                                            <option value='Mme'>Mme</option>
+                                            <option value='Mlle'>Mlle</option>
+                                            <option value='Dr'>Dr</option>
+                                            <option value='Pr'>Pr</option>
+                                        </select>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Last_Name'>Nom</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' id='Last_Name' aria-required='true' aria-label='Last Name' name='Last Name' aria-valuemax='80' maxlength='80' placeholder="Votre nom"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='First_Name'>Prénom</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' id='First_Name' aria-required='true' aria-label='First Name' name='First Name' aria-valuemax='40' maxlength='40' placeholder="Votre prénom"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Email'>E-mail</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' ftype='email' autocomplete='false' id='Email' aria-required='true' aria-label='Email' name='Email' aria-valuemax='100' crmlabel='' maxlength='100' placeholder="Votre adresse e-mail"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Phone'>Téléphone</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' id='Phone' aria-required='true' aria-label='Phone' name='Phone' aria-valuemax='50' maxlength='50' placeholder="Numéro de téléphone"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Mailing_Country'>Pays</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' id='Mailing_Country' aria-required='true' aria-label='Mailing Country' name='Mailing Country' aria-valuemax='100' maxlength='100' placeholder="Pays de localisation"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label" for='Mailing_City'>Ville</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='text' id='Mailing_City' aria-required='false' aria-label='Mailing City' name='Mailing City' aria-valuemax='100' maxlength='100' placeholder="Ville de localisation"></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row-2'>
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'>
+                                        <label class="texte-label texte-area" for='Description'>Votre message</label>
+                                    </div>
+                                    <div class='zcwf_col_fld'>
+                                        <textarea aria-multiline='true' id='Description' aria-required='true' aria-label='Description' name='Description' placeholder="Que pouvons faire pour vous ?"></textarea>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                    
+                                <div class='zcwf_row-2'>
+                                    <div class='zcwf_col_lab' id='imageUploadField'>Télécharger un fichier<br><span style='color:rgb(82, 80, 80);'>(optionnel)</span></div>
+                                    <div class='zcwf_col_fld'>
+                                        <div class='cBoth'>
+                                            <input type='file' class='zcwf_file' name='theFile' aria-multiselectable='true' aria-labelledby='imageUploadField' id='theFile6113934000001101001' multiple onchange="showFileNames(this)">
+                                            <label for="theFile6113934000001101001" class="custom-file-label">
+                                                <img class="me-3" src="assets/images/icons/icon-upload.png" style="max-width: 30px; filter: brightness(0) saturate(80%) invert(1) sepia(1) hue-rotate(180deg) brightness(0.1) opacity(0.75);"> Sélectionner un fichier
+                                            </label>
+                                            <div class='zcwf_col_help'></div>
+                                            <p id="fileNames" style="color:black;font-size:11px;padding-left:3px;"></p>
+                                        </div>
+                                        <p style='color:black;font-size:11px;padding-left:3px;'>La limite maximale de taille du ou des fichiers est de 20 Mo.</p>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    function showFileNames(input) {
+                                        var fileNames = [];
+                                        for (var i = 0; i < input.files.length; i++) {
+                                            fileNames.push(input.files[i].name);
+                                        }
+                                        document.getElementById('fileNames').textContent = fileNames.join(', ') || "Aucun fichier sélectionné";
+                                    }
+                                </script>
+                                
+                    
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab'></div>
+                                    <div class='zcwf_col_fld'>
+                                        <input type='submit' id='formsubmit' role='button' class='formsubmit btn btn-contact rounded-0 me-3' value='Envoyer message' aria-label='Envoyer' title='Envoyer'>
+                                        <button class="type='reset' btn btn-contact-outline rounded-0"  role='button' name='reset' value='Annuler' aria-label='Annuler' title='Annuler'>Annuler</button>                
+                                    </div>
+                                </div>
+
+                                <!--Script de Zoho, à ne pas supprimer, ne pas modifier !-->
+                                <script>
+                                    function addAriaSelected6113934000001101001() {
+                                        var optionElem = event.target;
+                                        var previousSelectedOption = optionElem.querySelector('[aria-selected=true]');
+                                        if (previousSelectedOption) {
+                                            previousSelectedOption.removeAttribute('aria-selected');
+                                        }
+                                        optionElem.querySelectorAll('option')[optionElem.selectedIndex].ariaSelected = 'true';
+                                    }
+                    
+                                    function validateEmail6113934000001101001() {
+                                        var form = document.forms['WebToContacts6113934000001101001'];
+                                        var emailFld = form['Email'];
+                                        var emailVal = emailFld.value;
+                                        if (emailVal.replace(/^s+|s+$/g, '').length == 0) {
+                                            return false;
+                                        }
+                                        var emailPattern = /^[A-Za-z0-9]+[A-Za-z0-9._%+-]*@[A-Za-z0-9.-]+.[A-Za-z]{2,}$/;
+                                        if (!emailPattern.test(emailVal)) {
+                                            return false;
+                                        }
+                                        return true;
+                                    }
+                    
+                                    function checkMandatory6113934000001101001() {
+                                        var mndFileds = new Array('Last Name', 'Email', 'Phone', 'Mailing Country', 'Salutation', 'First Name');
+                                        var fldLangVal = new Array('Nom', 'E-mail', 'Téléphone', 'Pays', 'Civilité', 'Prénom');
+                                        for (i = 0; i < mndFileds.length; i++) {
+                                            var fieldObj = document.forms['WebToContacts6113934000001101001'][mndFileds[i]];
+                                            if (fieldObj) {
+                                                if (fieldObj.value.replace(/^s+|s+$/g, '').length == 0) {
+                                                    alert(fldLangVal[i] + ' ne peut pas être vide.');
+                                                    fieldObj.focus();
+                                                    return false;
+                                                } else if (fieldObj.nodeName == 'SELECT') {
+                                                    if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                                                        alert(fldLangVal[i] + ' ne peut pas être vide.');
+                                                        fieldObj.focus();
+                                                        return false;
+                                                    }
+                                                } else if (fieldObj.type == 'checkbox') {
+                                                    if (fieldObj.checked == false) {
+                                                        alert('Veuillez accepter les ' + fldLangVal[i]);
+                                                        fieldObj.focus();
+                                                        return false;
+                                                    }
+                                                }
+                                                try {
+                                                    if (fieldObj.name == 'Email') {
+                                                        if (!validateEmail6113934000001101001()) {
+                                                            alert('Veuillez entrer une adresse email valide.');
+                                                            fieldObj.focus();
+                                                            return false;
+                                                        }
+                                                    }
+                                                } catch (e) { }
+                                            }
+                                        }
+                                        return true;
+                                    }
+                                </script>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--~~~~~~ SECTION FAQ ~~~~~~-->
+    
+    <section class="container content-contact">
+        <div class="margin-t-50 margin-b-100">
+            <hr>
+            <p class="margin-b-50">FAQ</p>
+            <div class="row">
+                <br>
+                <h2 class="h2 margin-b-100 inter">Découvrez les réponses aux questions fréquemment posées pour obtenir plus d'informations</h2>
+            </div>
+            <div class="row px-lg-5">
+                <div class="row px-lg-5">
+                    <div class="accordion px-lg-5" id="accordionPanelsStayOpenExample">
+                        
+                        <!-- Question 1 - Secteurs industriels -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Quels secteurs industriels couvrez-vous ?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <p>AFMAT accompagne les industriels dans <strong>10 secteurs clés</strong> avec une expertise reconnue :</p>
+                                    
+                                    <table class="table table-bordered">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th width="25%">Secteur</th>
+                                                <th>Détails des solutions proposées</th>
+                                                <th width="30%">Exemples concrets</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Industrie minière</strong></td>
+                                                <td>Nous fournissons l'ensemble des pièces critiques pour maintenir la productivité des sites miniers, des équipements de forage aux systèmes de sécurité.</td>
+                                                <td>
+                                                    <ul class="mb-0">
+                                                        <li>Outils de forage (Atlas Copco)</li>
+                                                        <li>Courroies transporteuses</li>
+                                                        <li>Pièces pour Caterpillar</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Pétrole et gaz</strong></td>
+                                                <td>Notre offre couvre toute la chaîne d'approvisionnement pour l'exploration et l'exploitation pétrolière, avec des composants certifiés pour les environnements extrêmes.</td>
+                                                <td>
+                                                    <ul class="mb-0">
+                                                        <li>Vannes haute pression</li>
+                                                        <li>Systèmes de contrôle de puits</li>
+                                                        <li>Moteurs électriques spécialisés</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Génie civil</strong></td>
+                                                <td>AFMAT approvisionne les chantiers en matériaux de construction et pièces pour engins lourds, garantissant la continuité des travaux.</td>
+                                                <td>
+                                                    <ul class="mb-0">
+                                                        <li>Poutres en acier</li>
+                                                        <li>Pièces pour Komatsu</li>
+                                                        <li>Équipements de sécurité</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    
+                                    <p class="mt-3">Nous couvrons également : <strong>l'énergie électrique</strong> (groupes électrogènes, transformateurs), <strong>la robinetterie industrielle</strong> (vannes, motorisation), et <strong>le matériel roulant</strong> (pièces pour véhicules légers et poids lourds).</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Question 2 - Garantie qualité -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fs-5 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Comment garantissez-vous la qualité de vos produits ?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <p>Chez AFMAT, nous avons développé une <strong>approche qualité rigoureuse</strong> basée sur nos méthodes de sourcing de logistique optimisées ainsi que sur notre réseaux d'usines et de fabricants industriels, un de plus de 20 ans dans la supply chain industrielle :</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card h-100 border-0 shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">1. Sélection des fournisseurs</h5>
+                                                    <p>Nous travaillons exclusivement avec des fabricants réputés comme :</p>
+                                                    <ul>
+                                                        <li>KSB notre partenaire pour les pompes et pièces hydroliques</li>
+                                                        <li>CATERPILAR, MAN, Autodoc, TVH et bien d'autres pour les pièces automobiles et poids louds</li>
+                                                        <li>Rexel, Sonepar, </li>
+                                                    </ul>
+                                                    <p>Chaque partenaire est sélectionné à partir de sa capacité à respecter nos exigences techniques et nos standards de qualité.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card h-100 border-0 shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">2. Contrôle des produits</h5>
+                                                    <p>Un processus en 3 étapes :</p>
+                                                    <ol>
+                                                        <li>Vérification des certificats constructeur</li>
+                                                        <li>Contrôle visuel et dimensionnel</li>
+                                                        <li>Tests fonctionnels aléatoires</li>
+                                                    </ol>
+                                                    <p>Nos équipes se tiens toujours à votre disposition pour vous sourcer rapidement les produits et pièces dont vous avez besoin, et cela à des prix compétitifs.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="mt-3">Nous nous engageons à fournir des produits <strong>conformes aux spécifications techniques</strong> et adaptés à vos contraintes opérationnelles, qu'il s'agisse de pièces standard ou sur-mesure.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Question 3 - Délais livraison -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fs-5 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Quels sont vos délais de livraison ?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <p>Nos délais varient selon <strong>l'origine des produits</strong> et <strong>votre localisation</strong> :</p>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead class="table-light">
+                                                <tr>
+                                                    <th>Zone géographique</th>
+                                                    <th>Délai moyen</th>
+                                                    <th>Services associés</th>
+                                                    <th>Exemples de produits</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Afrique Centrale</strong> (depuis notre hub Gabon)</td>
+                                                    <td>2 à 5 jours ouvrés</td>
+                                                    <td>
+                                                        <ul class="mb-0">
+                                                            <li>Mise à disposition de votre commande dans nos locaux, ou livraison sur site.</li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <ul class="mb-0">
+                                                            <li>Pièces pour engins miniers</li>
+                                                            <li>Robinetterie industrielle</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Europe/Asie</strong> (commandes directes)</td>
+                                                    <td>7 à 40 jours</td>
+                                                    <td>
+                                                        <ul class="mb-0">
+                                                            <li>Transport multimodal</li>
+                                                            <li>Suivi en temps réel</li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <ul class="mb-0">
+                                                            <li>Équipements pétroliers</li>
+                                                            <li>Composants électriques</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    <div class="alert alert-info mt-3">
+                                        <strong>Option express :</strong> Pour les urgences, nous proposons une livraison aérienne en 48-72h sur demande (frais supplémentaires applicables).<br>
+                                        Attention ces délais sont des moyennes et sont à titre informatives. En fonction des délais de fabrication/ livraison par l'unsine ou le fournisseur, il peuvent varier de manière indépendante à notre efficacitée logistique.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--~~~~~~ FOOTER ~~~~~~-->
+
+    <footer>
+        <div class="footer-top text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <img src="assets/images/logo-afmat-fw.png" style="width: 70px" alt="Logo AFMAT">
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <a href="pdc.html">AFMAT - Contact</a>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <a href="https://www.linkedin.com/company/afmat_gabon/">Suivez nous sur LinkedIn<i class="fab fa-linkedin" style="width: 30px"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 my-3 link-underline">
+                        <p>TOGETHER WE WORK TO BUILD YOUR FUTURE</p><br>
+                        <p><a href="pdc.html">Legal Notice</a> • <a href="pdc.html">CGV/CGA</a> • <a href="pdc.html">Politique de Confidentialité</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"  style="background-color: #141414;">
+            <div class="col-12 mt-3 d-flex align-items-center justify-content-center">
+                <p class="text-white">© <span id="current-year"></span> AFMAT - Africa Materials</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!--~~~~~~ SCRIPTS ~~~~~~-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        window.addEventListener('load', function() {
+            const video = document.getElementById('backgroundVideo');
+            setTimeout(() => {
+                video.play(); // Lance la vidéo après le délai
+                video.style.opacity = 1; // Rendre la vidéo visible
+            }, 5000); // 5000ms = 5 secondes de délai
+        });
+    </script>    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
